@@ -95,6 +95,22 @@
             }
         },
         {
+            "Key": "475f0eb4-34d7-49eb-89d4-1ef6e0743470",
+            "Value": {
+                "id": "3d42cd45-5b3f-4801-833e-fa2afd299caf",
+                "resourcePath": "objects\/obj_player\/obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "57e470c5-381b-410b-8c6c-e45b98ea8481",
+            "Value": {
+                "id": "da0dc32e-c8c6-4b1b-ab8d-b2d3714939e5",
+                "resourcePath": "objects\/obj_enemy\/obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "62feacf6-842c-4f04-8c56-8e28f55fb8b4",
             "Value": {
                 "id": "1fb53e9d-2306-462b-9d23-ade26967a452",
@@ -124,6 +140,14 @@
                 "id": "c2e3a8e9-dfed-401c-9965-8e05aab320c1",
                 "resourcePath": "views\/8c914891-d655-48dd-b5f8-6881cb0fbefb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9189fe1f-bc59-4a86-906f-16f271b59632",
+            "Value": {
+                "id": "4177832a-1658-4961-a2b8-e580a65ce75e",
+                "resourcePath": "objects\/obj_victim\/obj_victim.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -172,6 +196,22 @@
                 "id": "63793dec-e68c-476c-ad96-5a43212d43b2",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d9e98846-6fe5-482e-b756-87152546a4f4",
+            "Value": {
+                "id": "2bbb8406-a595-4624-b58f-5ccf46c4cc7a",
+                "resourcePath": "sprites\/spr_player\/spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ec25c068-4ce8-466e-8d0e-4d62bc8cd8ba",
+            "Value": {
+                "id": "e5bffdd8-a470-42e4-8c64-f7ec6d2b4ad5",
+                "resourcePath": "sprites\/spr_victim\/spr_victim.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
