@@ -13,12 +13,9 @@ vSpeed = lengthdir_y(inputMagnitude * walkSpeed, inputDirection);
 
 
 //check for victim and make it follow
-if (hasVictim = false)
-{
-	if (distance_to_object(obj_victim) <= attractDistance)
-	{
-		with instance_nearest(x,y,obj_victim)
-		{
+if (hasVictim = false) {
+	if (distance_to_object(obj_victim) <= attractDistance) {
+		with instance_nearest(x,y,obj_victim) {
 			state = 2; // 2 is state number in obj_victim for follow state 	
 		}
 		
