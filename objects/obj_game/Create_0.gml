@@ -8,7 +8,8 @@ draw_set_valign(fa_top);
 
 
 randomize();
-global.objCount = 3;	//num of Victims
+global.objCount = 3; //num of Victims
+global.curObjCount = global.objCount;
 
 repeat(global.objCount) {
 	//select random x and y
