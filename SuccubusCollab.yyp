@@ -66,7 +66,7 @@
             "Key": "1bf1a637-7f99-4525-be3d-549e14ed9150",
             "Value": {
                 "id": "9d8f6b3e-0b9a-49a2-a4e9-833feb0ba703",
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\\rm_game\\rm_game.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -167,6 +167,22 @@
             }
         },
         {
+            "Key": "ae10510f-ddec-4e33-96d0-3c7b7ad25bd6",
+            "Value": {
+                "id": "4a6f060c-8c04-4fd6-8d8c-69150cd1d457",
+                "resourcePath": "rooms\\rm_win\\rm_win.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "af00e7e9-f07c-45e7-8c97-24128b371486",
+            "Value": {
+                "id": "c5b9b5f2-e21e-4d08-a797-896c486c5fe4",
+                "resourcePath": "rooms\\rm_start\\rm_start.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b3447c23-a43a-4df4-890d-20e59f6869fa",
             "Value": {
                 "id": "4581c873-eecb-49fa-8f08-a9768aa192f9",
@@ -180,6 +196,14 @@
                 "id": "6598592e-ae6d-4f61-8d19-644593144776",
                 "resourcePath": "views\/be0a9165-fd7b-455d-a82c-19d4a3ce3fda.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c38d757c-673e-4622-a11b-bb7e4acf7e86",
+            "Value": {
+                "id": "9da5ea9c-1ca6-4b81-a96e-7023d71d1b06",
+                "resourcePath": "rooms\\rm_lose\\rm_lose.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -228,6 +252,14 @@
                 "id": "b47ee880-2dce-4e09-a032-83ea70b7bfdb",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f6c0067d-9c0a-4118-ab72-957a8431bb26",
+            "Value": {
+                "id": "6d15d30f-7daa-40f7-8c51-036e2ce98053",
+                "resourcePath": "objects\\obj_game\\obj_game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
