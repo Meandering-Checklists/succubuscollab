@@ -229,6 +229,22 @@
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fbe8217b-3b76-49f3-aa77-115e1c41d782",
+            "Value": {
+                "id": "2f33c0c8-7d67-4f2e-a011-821a3325d462",
+                "resourcePath": "objects\\obj_goal\\obj_goal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ffb691da-a4e0-43d8-ba8c-a3ae06d6fb61",
+            "Value": {
+                "id": "087e432f-7c57-40bb-a2a3-1319399c2551",
+                "resourcePath": "sprites\\spr_goal\\spr_goal.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
