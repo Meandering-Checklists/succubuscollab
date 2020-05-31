@@ -4,7 +4,12 @@ xMax = 1230;
 yMin = 50;
 yMax = 670;
 
-repeat(global.objCount) {
+//place Victims randomly in safe zone
+randomise();
+objCount = 3; //num of Victims
+curObjCount = objCount;
+
+repeat(objCount) {
 	//select random x and y
 	var xx = irandom_range(xMin, xMax);
 	var yy = irandom_range(yMin, yMax);
@@ -16,6 +21,5 @@ repeat(global.objCount) {
 	}
 	
 	//create instance in game room
-	//room_instance_add(rm_game, xx, yy, obj_victim);
 	instance_create_layer(xx, yy, "Instances", obj_victim);
 }
