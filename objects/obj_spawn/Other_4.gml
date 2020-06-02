@@ -1,5 +1,5 @@
 //spawn Player and Goal in game room
-var playerX = 50;
+var playerX = 60;
 var playerY = 352;
 instance_create_layer(playerX, playerY, "Instances", obj_player);
 instance_create_layer(playerX, playerY, "Instances", obj_goal);
