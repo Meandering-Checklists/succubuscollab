@@ -8,6 +8,9 @@ yMax = 670;
 randomise();
 objCount = 3; //num of Victims
 curObjCount = objCount;
+laneCount = 3; //num of lanes
+//curLaneCount = laneCount;
+
 
 repeat(objCount) {
 	//select random x and y
@@ -22,4 +25,17 @@ repeat(objCount) {
 	
 	//create instance in game room
 	instance_create_layer(xx, yy, "Instances", obj_victim);
+}	
+
+repeat(laneCount) {
+	//select random x
+	var xx = irandom_range(300,xMin);
+	
+	//prevent overlap
+	while (place_meeting(xx, 0, obj_lane)) {
+		xx = irandom_range(300, xMin);
+	}
+	
+	//create instance in game room
+	instance_create_layer(xx, 0, "Instances", obj_lane);
 }
