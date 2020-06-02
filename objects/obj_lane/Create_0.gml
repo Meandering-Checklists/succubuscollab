@@ -30,7 +30,7 @@ switch (laneType) {
 		while (spawnPoint < room_height) {
 			with (instance_create_layer(x,spawnPoint,"Instances",obj_enemy)) {
 				moveSpeed = mediumSpeed * -1;
-				image_index =1;
+				image_index = 1;
 				image_angle += 180;
 			}
 			spawnPoint += distanceBetweenMedium;
