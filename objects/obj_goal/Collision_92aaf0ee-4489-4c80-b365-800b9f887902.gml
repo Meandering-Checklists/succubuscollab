@@ -9,9 +9,12 @@ obj_spawn.curObjCount--;
 
 //check for Win condition (all Victims gone)
 if (obj_spawn.curObjCount <= 0) {
-	//go to Win screen
+	if obj_game.gameLevel = obj_game.maxGameLevel {
 	room_goto(rm_win);
-	
+	} else {
+	obj_game.gameLevel ++;
+	room_restart();
+	}
 	//reset current object count to original count
-	obj_spawn.curObjCount = obj_spawn.objCount;
+	obj_spawn.curObjCount = obj_spawn.objCount ++;
 }
