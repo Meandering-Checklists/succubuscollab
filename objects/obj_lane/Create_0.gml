@@ -1,8 +1,8 @@
 spawnPoint = irandom(64);
 laneType = irandom(5);
-distanceBetweenFast = 190;
-distanceBetweenMedium = 160;
-distanceBetweenSlow = 130;
+distanceBetweenFast = 300;
+distanceBetweenMedium = 250;
+distanceBetweenSlow = 200;
 
 switch (laneType) {
 	case 0: // Enemy Moving Up and Fast
