@@ -27,13 +27,14 @@ repeat(objCount) {
 	instance_create_layer(xx, yy, "Instances", obj_victim);
 }	
 
+//lanes go from x = 300 to x = (start of safe zone - 50)
 repeat(laneCount) {
 	//select random x
-	var xx = irandom_range(300,xMin);
+	var xx = irandom_range(300,xMin-50);
 	
 	//prevent overlap
 	while (place_meeting(xx, 0, obj_lane)) {
-		xx = irandom_range(300, xMin);
+		xx = irandom_range(300, xMin-50);
 	}
 	
 	//create instance in game room
