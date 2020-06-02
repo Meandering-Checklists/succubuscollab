@@ -18,4 +18,8 @@ switch(room) {
 		draw_text(room_width/2, 400, ">  PRESS ENTER TO TRY AGAIN  <");
 		draw_text(room_width/2, 450, ">  OR SPACE TO EXIT  <");
 		break;
+		
+	case rm_game:
+		draw_text(50,20,"Level " + string(gameLevel));
+		break;
 }
