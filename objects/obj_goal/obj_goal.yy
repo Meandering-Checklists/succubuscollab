@@ -5,7 +5,17 @@
     "name": "obj_goal",
     "eventList": [
         {
-            "id": "aa032233-4354-4884-9b44-a1cd3b136310",
+            "id": "92aaf0ee-4489-4c80-b365-800b9f887902",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "9189fe1f-bc59-4a86-906f-16f271b59632",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "fbe8217b-3b76-49f3-aa77-115e1c41d782"
+        },
+        {
+            "id": "a6562213-474a-42e4-bc85-cd2dddeec475",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,13 +25,13 @@
             "m_owner": "fbe8217b-3b76-49f3-aa77-115e1c41d782"
         },
         {
-            "id": "92aaf0ee-4489-4c80-b365-800b9f887902",
+            "id": "bceb00ea-9767-4685-b819-53730b21c9a8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "9189fe1f-bc59-4a86-906f-16f271b59632",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
+            "eventtype": 3,
             "m_owner": "fbe8217b-3b76-49f3-aa77-115e1c41d782"
         }
     ],
