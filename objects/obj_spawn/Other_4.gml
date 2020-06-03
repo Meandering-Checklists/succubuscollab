@@ -1,9 +1,8 @@
 //spawn Player and Goal in game room
-var playerX = 32;
+var playerX = 60;
 var playerY = 352;
 instance_create_layer(playerX, playerY, "Instances", obj_player);
 instance_create_layer(playerX, playerY, "Instances", obj_goal);
-
 
 //Safe Zone
 xMin = 950;
