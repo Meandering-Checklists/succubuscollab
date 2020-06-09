@@ -1,7 +1,7 @@
 switch(room) {
 	case rm_game:
 		draw_text(30, 30, "Score: " + string(score));
-		draw_text(30,15,"Level: " + string(gameLevel));
+		draw_text(30, 15, "Level: " + string(gameLevel));
 		break;
 		
 	case rm_start:
