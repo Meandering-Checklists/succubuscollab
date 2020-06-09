@@ -9,7 +9,7 @@ switch (laneType) {
 	case 0: // Enemy Moving Up and Fast
 		repeat (spawnNumber) {
 			with (instance_create_layer(x,spawnPoint,"Instances",obj_enemy)) {
-				moveSpeed = slowSpeed * -1;
+				moveSpeed = fastSpeed * -1;
 				image_index = 0;
 				image_angle += 180;
 			}
