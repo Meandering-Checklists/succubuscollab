@@ -1,8 +1,6 @@
 //Control Victim State
 if (instance_exists(obj_player)) {
-	switch (state) {	
-		case 1: //Does Nothing
-			break;
+	switch (state) {		
 		
 		case 2: //Movement Code following Player
 			if (abs(x - obj_player.x) > followDistance) {

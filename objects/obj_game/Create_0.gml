@@ -1,6 +1,6 @@
 //level variables
 gameLevel = 1;
-maxGameLevel = 2;
+maxGameLevel = 3;
 
 //score variable
 score = 0;
