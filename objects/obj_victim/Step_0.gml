@@ -32,8 +32,8 @@ if (instance_exists(obj_player)) {
 		case 4:	//Victim escapes magnet
 			y += walkSpeed;
 			if (y >= room_height) {
-				instance_destroy();
 				obj_spawn.curObjCount--;
+				instance_destroy();
 			}
 			break;
 	}
