@@ -19,6 +19,7 @@ if (hasVictim = false) {
 		}
 		
 		hasVictim = true;
+		obj_goal.magEffect = true;
 	}
 /*	} else { //here needs to go code for what happens when victim is destroyed and player can attract again
 		

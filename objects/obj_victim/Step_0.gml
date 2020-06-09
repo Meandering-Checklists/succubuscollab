@@ -17,13 +17,24 @@ if (instance_exists(obj_player)) {
 			break;
 		
 		case 3: //Magnet movement
-			xMagDir = sign(obj_goal.x - x);
-			yMagDir = sign(obj_goal.y - y);
+			if (obj_goal.magEffect) {
+				xMagDir = sign(obj_goal.x - x);
+				yMagDir = sign(obj_goal.y - y);
 		
-			hMagSpd = xMagDir * obj_goal.magSpeed;
-			vMagSpd = yMagDir * obj_goal.magSpeed;
+				hMagSpd = xMagDir * obj_goal.magSpeed;
+				vMagSpd = yMagDir * obj_goal.magSpeed;
 				
-			x += hMagSpd;
-			y += vMagSpd;
+				x += hMagSpd;
+				y += vMagSpd;
+			}
+			break;
+			
+		case 4:	//Victim escapes magnet
+			y += walkSpeed;
+			if (y >= room_height) {
+				instance_destroy();
+				obj_spawn.curObjCount--;
+			}
+			break;
 	}
 }	
