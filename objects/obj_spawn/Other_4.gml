@@ -7,7 +7,7 @@ instance_create_layer(playerX, playerY, "Instances", obj_goal);
 //Safe Zone
 xMin = 950;
 xMax = 1230;
-yMin = 50;
+yMin = 92;
 yMax = 670;
 
 
@@ -95,3 +95,5 @@ repeat(laneCount) {
         instance_create_layer(xLane, yLane, "Instances", obj_lane);
     }
 }
+
+instance_create_layer(0,0,"Hud_Layer", obj_hud);
