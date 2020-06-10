@@ -2,4 +2,7 @@
 magDistance = 100;
 
 //magnet draw speed
-magSpeed = .3;
+magSpeed = .5;
+
+//magnet is on
+magEffect = true;
