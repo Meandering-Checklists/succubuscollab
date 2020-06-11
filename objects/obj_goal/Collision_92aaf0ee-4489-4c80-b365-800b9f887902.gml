@@ -7,5 +7,6 @@ obj_player.hasVictim = false;
 //decrease object count
 obj_spawn.curObjCount--;
 
+
 //instance of victim is destroyed
 instance_destroy(other);

@@ -1,3 +1,7 @@
+if obj_game.pause = true {
+	exit;	
+}
+
 //Control Victim State
 if (instance_exists(obj_player)) {
 	switch (state) {		

@@ -1,4 +1,3 @@
-//check for Win condition (all Victims destroyed)
 if (obj_spawn.curObjCount <= 0) {
 	if (obj_game.gameLevel == obj_game.maxGameLevel) {
 		obj_game.gameLevel = 1;
