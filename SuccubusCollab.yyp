@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1fb5be39-133a-40d1-b91d-3e893242867f",
+            "Value": {
+                "id": "ec45cc09-03d9-4ed5-94e7-25cc357229a3",
+                "resourcePath": "objects\/obj_roomTransition\/obj_roomTransition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "204e62ef-a091-467b-9b8e-5ae08aa6b8b7",
             "Value": {
                 "id": "1efe5a23-3de9-4936-a9b7-1673b3aabe95",
@@ -156,6 +164,14 @@
                 "id": "680bd77c-6d78-465b-b90d-d9c39b4aa037",
                 "resourcePath": "views\/7fd9f9e8-3c6f-490a-8b15-d9bb4da47985.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "817cb6e4-918d-40bb-a534-f0645227deb8",
+            "Value": {
+                "id": "537911b3-6f8f-472a-bc37-8ab4dccbacda",
+                "resourcePath": "sprites\/spr_roomTransition\/spr_roomTransition.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

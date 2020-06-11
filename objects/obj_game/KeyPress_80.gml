@@ -1,5 +1,7 @@
-if pause = false {
-	pause = true;	
-	} else {
-	pause = false;	
+if (cutscene == false) {
+	if pause = false {
+		pause = true;	
+		} else {
+		pause = false;	
+		}
 	}
