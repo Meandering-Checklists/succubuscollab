@@ -6,8 +6,12 @@ if (fading = false) {
 
 if (image_alpha >= 1) {
 	fading = true;
-	obj_game.gameLevel++;
-	room_restart();
+	if (room = rm_game) {
+		room_goto(rm_cutscene)
+	} else if room = rm_cutscene {
+		room_goto(rm_game);
+		obj_game.gameLevel++;	
+	}
 }
 
 if (image_alpha <= 0) {

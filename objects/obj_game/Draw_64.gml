@@ -32,6 +32,12 @@ switch(room) {
 		draw_set_halign(fa_left);
 		break;
 		
+	case rm_cutscene:
+		draw_text(room_width/2, room_height/2, "Level: " + string(gameLevel) + " Completed");
+		draw_text(room_width/2, room_height/2 + 50, "Score: " + string(score));
+		draw_text(room_width/2, room_height/2 + 80, "Press Enter To Play Next Level")
+		break;
+		
 
 		
 }
