@@ -4,8 +4,6 @@ if (obj_spawn.curObjCount <= 0) {
 		room_goto(rm_win);
 	} 
 	else {
-		obj_game.cutscene = true;
-		obj_game.pause = true;
 		instance_create_depth(0,0,-10000,obj_roomTransition)
 		
 	}

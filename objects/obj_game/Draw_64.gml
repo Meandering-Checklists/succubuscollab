@@ -1,5 +1,7 @@
 switch(room) {
 	case rm_game:
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_top);
 		draw_text(25, 25, "Score: " + string(score));
 		draw_text(25, 10, "Level: " + string(gameLevel));
 		break;
@@ -33,9 +35,13 @@ switch(room) {
 		break;
 		
 	case rm_cutscene:
-		draw_text(room_width/2, room_height/2, "Level: " + string(gameLevel) + " Completed");
-		draw_text(room_width/2, room_height/2 + 50, "Score: " + string(score));
-		draw_text(room_width/2, room_height/2 + 80, "Press Enter To Play Next Level")
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_middle);
+		draw_text_transformed(room_width/2 ,room_height/2 - 50, "Level: " + string(gameLevel) + " Completed", 1.5,1.5, 0);
+		draw_text_transformed(room_width/2, room_height/2, "Score: " + string(score),1.5,1.5,0);
+		if (!cutscene = true) { 
+			draw_text_transformed(room_width/2, room_height/2 + 50, "Press Enter To Play Next Level",1.5,1.5,0);
+		}
 		break;
 		
 

@@ -1,7 +1,7 @@
 if (fading = false) {
-	image_alpha += .01;	
+	image_alpha += .02;	
 } else {
-	image_alpha -= .01;	
+	image_alpha -= .02;	
 }
 
 if (image_alpha >= 1) {
