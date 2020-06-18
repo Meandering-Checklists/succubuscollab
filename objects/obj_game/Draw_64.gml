@@ -2,8 +2,10 @@ switch(room) {
 	case rm_game:
 		draw_set_halign(fa_left);
 		draw_set_valign(fa_top);
-		draw_text(25, 25, "Score: " + string(score));
 		draw_text(25, 10, "Level: " + string(gameLevel));
+		draw_text(25, 25, "Score: " + string(score));
+		var c = c_yellow;
+		draw_text_transformed_color(room_width/2, 10, ceil(string(timer/room_speed)), 2, 2, 0, c, c, c, c, 1);
 		break;
 		
 	case rm_start:
@@ -39,7 +41,7 @@ switch(room) {
 		draw_set_valign(fa_middle);
 		draw_text_transformed(room_width/2 ,room_height/2 - 50, "Level: " + string(gameLevel) + " Completed", 1.5,1.5, 0);
 		draw_text_transformed(room_width/2, room_height/2, "Score: " + string(score),1.5,1.5,0);
-		if (!cutscene = true) { 
+		if (!cutscene == true) { 
 			draw_text_transformed(room_width/2, room_height/2 + 50, "Press Enter To Play Next Level",1.5,1.5,0);
 		}
 		break;
